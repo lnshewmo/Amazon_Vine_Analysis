@@ -1,4 +1,9 @@
 linear_regression_salary/
+logistic_regression/
+logistic_regression_dm/
+Amazon_Reviews_ETL_starter_code
+challenge_schema
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
