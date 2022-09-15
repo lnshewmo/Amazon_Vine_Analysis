@@ -1,8 +1,8 @@
 linear_regression_salary/
 logistic_regression/
 logistic_regression_dm/
-Amazon_Reviews_ETL_starter_code
-challenge_schema
+challenge_files/Amazon_Reviews_ETL_starter_code.ipynb
+challenge_files/challenge_schema.sql
 
 
 # Byte-compiled / optimized / DLL files
