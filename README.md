@@ -1,4 +1,4 @@
-![vine](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/vine.png)
+<img src='https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/vine.png' height=50% width=50%>
 
 # Amazon_Vine_Analysis
 
@@ -6,7 +6,9 @@ Using Pyspark in Google Colab, Amazon Web Services (AWS) RDB and S3, and Pandas 
 
 ## Overview
 
-The Amazon Vine program is a service connecting product vendors with paid reviewers to evaluate products and publish reviews.  This project aims to determine if there is any bias toward favorable reviews from Vine members in the dataset.  A lawn and garden products dataset was extracted from an AWS S3 bucket to a cloud instance of Google Colab using Apache Spark 3.2.2.  Four tables were created from the dataset and loaded to PostgreSQL.  The `vine_table` was exported as a `.csv` file using pgAdmin and read into a Pandas dataframe using Jupyter Notebook to perform the bias analysis.
+The Amazon Vine program is a service connecting product vendors with paid reviewers to evaluate products and publish reviews.  
+
+This project aims to determine if there is any bias toward favorable reviews from Vine members in the dataset.  A lawn and garden products dataset was extracted from an AWS S3 bucket to a cloud instance of Google Colab using Apache Spark 3.2.2.  Four tables were created from the dataset and loaded to PostgreSQL.  The `vine_table` was exported as a `.csv` file using pgAdmin and read into a Pandas dataframe using Jupyter Notebook to perform the bias analysis.
 
 ## Resources
 
@@ -18,7 +20,8 @@ The Amazon Vine program is a service connecting product vendors with paid review
 ## Results
 
 Table 1.  Review Counts and Percentages for Vine and Unpaid Reviews of Lawn and Garden products
-<img src="https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/review_table.png" height=60% width=60%>
+
+<img src="https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/review_table.png" height=65% width=65%>
 
 ## Summary
 
@@ -26,7 +29,7 @@ Positivity bias in Amazon Vine reviews would be demonstrated as a tendency for V
 
 The sample size of the Vine group is notably smaller than the unpaid reviewer group.  This should be considered in selecting an appropriate statistical test to evaluate differences and interpretation of the result.  
 
-Using the whole dataset, mean star counts could be calculated for vine and unpaid reviews.  A t-test could then be run to determine in the mean star rating for the Vine group is larger than the mean star rating for the unpaid group.
+Using the whole dataset, mean star counts could be calculated for vine and unpaid reviews.  A t-test could then be run to determine if the mean star rating for the Vine group is larger than the mean star rating for the unpaid group.
 
 ---
 Contact:  Laura Miller (laura.shewmon@gmail.com)
