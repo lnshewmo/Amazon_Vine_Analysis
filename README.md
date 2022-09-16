@@ -17,9 +17,8 @@ The Amazon Vine program is a service connecting product vendors with paid review
 
 ## Results
 
-- count of vine and non-vine reviews
-- count of 5-star vine and non-vine reviews
-- percentage of 5-star vine and non-vine reviews
+Table 1.  Review Counts and Percentages for Vine and Unpaid Reviews
+![review_table](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/review_table.png)
 
 ## Summary
 
