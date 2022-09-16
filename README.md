@@ -1,3 +1,5 @@
+![vine](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/vine.png)
+
 # Amazon_Vine_Analysis
 
 Using Pyspark in Google Colab, Amazon Web Services (AWS) RDB and S3, and Pandas to evaluate bias in Amazon Vine reviews
