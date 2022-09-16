@@ -14,8 +14,8 @@ This project aims to determine if there is any bias toward favorable reviews fro
 
 - [link](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/Amazon_Reviews_ETL.ipynb) to the Colab workbook for the ETL process from Amazon Web Services to PostgreSQL
   - the selected dataset for extraction is [amazon_reviews_us_Lawn_and_Garden_v1_00.tsv.gz  ](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Lawn_and_Garden_v1_00.tsv.gz)
-- [link](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/vine_table.csv) to the cleaned Amazon Reviews dataset exported from PostgreSQL
-- [link](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/Vine_Analysis.ipynb) to the jupyter notebook file used to evaluate bias in the cleaned Amazon Reviews dataset
+- [link](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/vine_table.csv) to the cleaned `vine_table.csv` dataset exported from PostgreSQL
+- [link](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/Vine_Analysis.ipynb) to the jupyter notebook used to evaluate bias in the vine_table dataset
 
 ## Results
 
