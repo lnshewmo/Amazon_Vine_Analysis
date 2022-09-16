@@ -17,13 +17,16 @@ The Amazon Vine program is a service connecting product vendors with paid review
 
 ## Results
 
-Table 1.  Review Counts and Percentages for Vine and Unpaid Reviews
-![review_table](https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/review_table.png)
+Table 1.  Review Counts and Percentages for Vine and Unpaid Reviews of Lawn and Garden products
+<img src="https://github.com/lnshewmo/Amazon_Vine_Analysis/blob/main/challenge_files/review_table.png" height=60% width=60%>
 
 ## Summary
 
-- define positivity bias
-- additional analysis to evaluate bias
+Positivity bias in Amazon Vine reviews would be demonstrated as a tendency for Vine reviewers to give better reviews (more stars) than unpaid reviewers on comparable products.  At first glance, for the Lawn and Garden dataset, that does not appear to be the case.  The percentage of 5-Star reviews for Vine reviewers is not greater than that of unpaid reviewers.
+
+The sample size of the Vine group is notably smaller than the unpaid reviewer group.  This should be considered in selecting an appropriate statistical test to evaluate differences and interpretation of the result.  
+
+Using the whole dataset, mean star counts could be calculated for vine and unpaid reviews.  A t-test could then be run to determine in the mean star rating for the Vine group is larger than the mean star rating for the unpaid group.
 
 ---
-Contact:  laura.shewmon@gmail.com
+Contact:  Laura Miller (laura.shewmon@gmail.com)
